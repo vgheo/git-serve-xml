@@ -24,6 +24,8 @@ v0.5.0
         - in browser - rendered as XML
             - XSL transform to x/html supported
             - static xhtml supported  
+Demo:
+[t.xml](raw/master/t.xml)
 
 SOL2. Request on gitlist support list to impelment proper content-type handling,
 esp. for xml files.

@@ -4,6 +4,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
+    <h2>refs</h2>
+    <a href="t2.html#2"> t2#2 </a>
     <h2>My CD Collection</h2>
     <table border="1">
       <tr bgcolor="#9acd32">

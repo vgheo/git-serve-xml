@@ -1,6 +1,6 @@
 
 
-Functional test - serve html/xml/xsl files from a git repo using http
+#Functional test - serve html/xml/xsl files from a git repo using http
 
 ## gitweb
 - ISSUE: URLs used to acces files are not hierarchical - so releative links cannot be resolved

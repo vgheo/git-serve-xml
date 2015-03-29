@@ -11,7 +11,7 @@ v0.5.0
 
 - ISSUE- implementation serves raw files with http header content-type:text/plain
 
-- HACK - patch gitlist implementation - force  to text/xml
+### SOL1. Patch gitlist implementation - force  to text/xml
     - see gitlist-serve-xml.patch
     - WORKS for XML+XSL
         + XHTML (which is XML)
@@ -19,13 +19,13 @@ v0.5.0
         => html files (non-xhtml) are displayed as xml tree (no stylesheed)
         => all non-xml text files result in errors (invalid xml)
 
-    - SOL1: ALL RAW files shall be 
+    - ALL RAW files shall be 
         - served with Content-type:text/xml
         - in browser - rendered as XML
             - XSL transform to x/html supported
             - static xhtml supported  
 
-###Demo:
+####Demo:
 - Supported:
   - [t.xml](../../raw/master/t.xml)
   - [t2.xml](../../raw/master/t2.xml)
@@ -35,9 +35,14 @@ v0.5.0
   - [t2.html](../../raw/master/t2.html)
   - [README.md](../../raw/master/README.md)
 
-SOL2. Request on gitlist support list to impelment proper content-type handling,
-esp. for xml files.
+#### SOL2. Feature request to gitlist
+
+Request on gitlist support list to impelment proper content-type handling,
+esp. for xml files. 
     - VAR1 - hard-code xml extension -> text/xml 
     - VAR2 - use design from gitweb
         - uses system-wide mime type - extension mapping
+
+Or - provide impelmentation..
+
 

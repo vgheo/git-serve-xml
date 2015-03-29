@@ -12,7 +12,7 @@ v0.5.0
 - ISSUE- implementation serves raw files with http header content-type:text/plain
 
 ### SOL1. Patch gitlist implementation - force  to text/xml
-- see [gitlist-serve-xml.patch]
+- see [patch](gitlist-serve-xml.patch)
 - WORKS for XML+XSL
     + XHTML (which is XML)
 - limitation : ALL files are handled as xml 

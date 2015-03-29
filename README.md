@@ -37,12 +37,12 @@ v0.5.0
 
 #### SOL2. Feature request to gitlist
 
+See [request](https://github.com/klaussilveira/gitlist/issues/571).
+
 Request on gitlist support list to impelment proper content-type handling,
 esp. for xml files. 
-    - VAR1 - hard-code xml extension -> text/xml 
-    - VAR2 - use design from gitweb
-        - uses system-wide mime type - extension mapping
-
-Or - provide impelmentation..
+- VAR1 - hard-code xml extension -> text/xml 
+- VAR2 - use design from gitweb
+    - uses system-wide mime type - extension mapping
 
 

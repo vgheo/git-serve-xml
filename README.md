@@ -26,9 +26,14 @@ v0.5.0
             - static xhtml supported  
 
 ###Demo:
-- [t.xml](../../raw/master/t.xml)
-- [t2.xml](../../raw/master/t2.xml)
-- [cds.xml](../../raw/master/cds.xml)
+- Supported:
+  - [t.xml](../../raw/master/t.xml)
+  - [t2.xml](../../raw/master/t2.xml)
+  - [cds.xml](../../raw/master/cds.xml)
+- Not supported:
+  - [t.html](../../raw/master/t.html)
+  - [t2.html](../../raw/master/t2.html)
+  - [README.md](../../raw/master/README.md)
 
 SOL2. Request on gitlist support list to impelment proper content-type handling,
 esp. for xml files.

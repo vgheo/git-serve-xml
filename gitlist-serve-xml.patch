@@ -1,0 +1,14 @@
+diff --git a/src/GitList/Controller/BlobController.php b/src/GitList/Controller/BlobController.php
+index 86cef8b..b501812 100644
+--- a/src/GitList/Controller/BlobController.php
++++ b/src/GitList/Controller/BlobController.php
+@@ -61,7 +61,7 @@ class BlobController implements ControllerProviderInterface
+                 $headers['Content-Disposition'] = 'attachment; filename="' .  $file . '"';
+                 $headers['Content-Type'] = 'application/octet-stream';
+             } else {
+-                $headers['Content-Type'] = 'text/plain';
++                $headers['Content-Type'] = 'text/xml';
+             }
+ 
+             return new Response($blob, 200, $headers);
+
